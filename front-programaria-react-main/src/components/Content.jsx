@@ -7,7 +7,7 @@ import Axios from 'axios'
 
 import styles from '../styles/.module.css'
 
-export function () {
+export function Content() {
   const [repositories, setRepositories] = useState([])
   const [nome, setNome] = useState('')
   const [minibio, setminibio] = useState('')
